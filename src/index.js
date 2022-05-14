@@ -53,4 +53,18 @@
 // 20.  Can you improve the performance?
 // 21.   How have other people solved this problem?
 
-function isPalindrome(str) {}
+function isPalindrome(str) {
+  let left = 1;
+  let right = str.length - 1;
+  // base case
+    if (isPalindrome(str[left]) !== isPalindrome(str[right])){
+      return false;
+    } else {
+      left++;
+      right--;
+
+    }
+  }
+  // recursion
+  return isPalindrome(str.slice(1)) ) 
+}
