@@ -2,11 +2,23 @@ Remember the acronym UPS check
 
 Step One (Understand). We have to understand the problem.
 1. What is the unknown?
+returns true if the string reads the same forward and backward
+
 2. What are the data inputs?
+String
+
 3. Can you restate the problem in your own words?
+returns true if the string reads the same forward and backward
+
 4. Can the unknown be determined from the data inputs?
+yes 
+
 5. Is the data inputs sufficient to determine the unknown? Insufficient? Redundant? Contradictory? 
+sufficient 
+
 6. How should I label important pieces of data input that are a part of the problem?
+str 
+
 7. Draw a figure. Introduce suitable notation.
 
 Step Two (Plan). Come up with concrete examples to help you understand the problem better. Find a connection between the data inputs and the unknown. You may be obliged to consider auxiliary problems if an immediate connection cannot be found. 
